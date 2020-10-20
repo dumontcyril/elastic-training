@@ -6,8 +6,8 @@ Tester la disponibilité du serveur :
 
 Télécharger :
 
-- le script [elastic-post-bulk.ps1](../blob/master/elastic-post-bulk.ps1)
-- le jeux de données [maires-25-04-2014.json](../blob/master/../blob/master/elastic-post-bulk.ps1)
+- le script [elastic-post-bulk.ps1](../master/elastic-post-bulk.ps1)
+- le jeux de données [maires-25-04-2014.json](../master/maires-25-04-2014.json)
 
 Ajouter le mapping suivant :
 
