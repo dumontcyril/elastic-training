@@ -4,6 +4,24 @@ Tester la disponibilité du serveur :
 
 <http://nom_du_serveur:5601>
 
+## Premiers pas
+
+A partir de la console Kibana (<http://nom_du_serveur:5601/app/kibana#/dev_tools/console>), ajouter des données :
+
+```json
+POST /test/_doc
+{
+  "prenom" : "Bart",
+  "nom" : "Simpson",
+  "age": 15
+
+}
+```
+
+Tester les données
+
+## Manipuler des données réelles
+
 Télécharger :
 
 - le script [elastic-post-bulk.ps1](../master/elastic-post-bulk.ps1)
